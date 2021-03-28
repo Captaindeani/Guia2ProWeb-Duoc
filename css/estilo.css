@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.contenedor{
+    height: 700px;
+    width: 1500px;
+}
+
+.menu{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 99%;
+    background-color: rgba(0, 0, 0, 0.90);
+    font-family: sans-serif;
+    border: solid black 3px;
+}
+
+.menu li{
+    display: block;
+    padding: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:grey; 
+}
+
+.menu a:hover{
+    color: white;
+}
+
+.contenido{
+    display: block;
+    float: left;
+    width: 79%;
+    height: 100%;
+}
+
+.contenido p{
+    padding: 15px;
+    font-family: sans-serif;
+    color:white;
+}
+
+.contenido h1{
+    padding: 15px;
+    font-family: sans-serif;
+    color:white;
+}
+
+.parte1{
+    display: block;
+    height: 25%;
+    background-color: aqua; 
+}
+
+.parte2{
+    display: block;
+    height: 25%;
+    background-color: yellow;
+}
+
+.parte3{
+    display: block;
+    height: 25%;
+    background-color: orange;
+}
+
+.parte4{
+    display: block;
+    height: 25%;
+    background-color: red;
+}
